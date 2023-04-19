@@ -57,9 +57,9 @@ public class TeamController {
     }
 
 //под нож команду!
-    @DeleteMapping("/teams/{id}")
-    public String deleteTeam(@PathVariable int id){
-        teamService.deleteTeam(id);
-        return "team with id " + id + " was deleted!";
+    @DeleteMapping("/teams/{teamId}")
+    public String deleteTeam(@PathVariable int teamId){
+        teamService.deleteTeam(teamId);
+        return "team with id " + teamId + " was deleted!";
     }
 }
