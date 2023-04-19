@@ -1,6 +1,6 @@
 ### REST-сервис для хранения данных о спортивных командах.
 
-#####Тесты проводились в Postman (https://www.postman.com/downloads/)
+##### Тесты проводились в Postman (https://www.postman.com/downloads/)
 <br><br>
  Локальный сервер: http://localhost:8080
 <br>
