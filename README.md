@@ -35,7 +35,7 @@
             <td rowspan=4>
             В Postman: Params<br><br>
             key - type<br><br>
-            Value - Soccer/Hockey и т.д.<br>
+            Value - Soccer/Hockey и т.д.<br><br>
             </td>
             <td rowspan=4>
             Показать все команды,<br> отфильтрованные по виду спорта.
