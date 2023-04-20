@@ -2,6 +2,9 @@
 
 #####Тесты проводились в Postman (https://www.postman.com/downloads/)
 <br><br>
+ Нужно создать postgresql базу данных - sport. Так же есть файл для создания в проекте в папке "create_db_helper"<br>
+юзер - root c паролем root (либо сделать изменения в application.properties под себя)
+<br><br>
  Локальный сервер: http://localhost:8080
 <br>
 
@@ -31,7 +34,7 @@
         <tbody>
         <tr>
             <td rowspan=4>GET</td>
-            <td rowspan=4>/sport/teams//sport-type?type=Soccer</td>
+            <td rowspan=4>/sport/teams//sport-type</td>
             <td rowspan=4>
             В Postman: Params<br><br>
             key - type<br><br>
