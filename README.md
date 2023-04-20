@@ -1,6 +1,6 @@
 ### REST-сервис для хранения данных о спортивных командах.
 
-#####Тесты проводились в Postman (https://www.postman.com/downloads/)
+##### Тесты проводились в Postman (https://www.postman.com/downloads/)
 <br><br>
  Нужно создать postgresql базу данных - sport. Так же есть файл для создания в проекте в папке "create_db_helper"<br>
 юзер - root c паролем root (либо сделать изменения в application.properties под себя)
@@ -37,8 +37,8 @@
             <td rowspan=4>/sport/teams//sport-type</td>
             <td rowspan=4>
             В Postman: Params<br><br>
-            key - type<br><br>
-            Value - Soccer/Hockey и т.д.<br>
+            key - type<br>
+            Value - Soccer/Hockey и т.д.<br><br>
             </td>
             <td rowspan=4>
             Показать все команды,<br> отфильтрованные по виду спорта.
@@ -51,7 +51,7 @@
             <td rowspan=4>/sport/teams/create-dates</td>
             <td rowspan=4>
             В Postman: Params<br><br>
-            key - date-one<br>
+            key - date-one
             Value - дата в формате "yyyy-MM-dd"<br><br>
             key - date-two<br>
             Value - дата в формате "yyyy-MM-dd"
@@ -78,7 +78,7 @@
             <td rowspan=4>POST</td>
             <td rowspan=4>/sport/teams</td>
             <td rowspan=4>
-            В Postman: body -> raw ->JSON<br><br>
+            В Postman: body -> raw ->JSON<br>
                 {<br>
                 "name": "Real",<br>
                 "sportType": "Soccer",<br>
@@ -96,7 +96,7 @@
                 <td rowspan=4>PUT</td>
                 <td rowspan=4>/sport/teams</td>
                 <td rowspan=4>
-                В Postman: body -> raw ->JSON<br><br>
+                В Postman: body -> raw ->JSON<br>
                     {<br>
                     "id": 2,<br>
                     "name": "Real",<br>
@@ -126,7 +126,7 @@
                 <td rowspan=4>/sport/players/{teamId}/positions</td>
                 <td rowspan=4>
                  В Postman: Params<br><br>
-                 key - position<br><br>
+                 key - position<br>
                  Value - Goalkeeper/Defender и т.д.<br>
                 </td>
                 <td rowspan=4>
@@ -140,7 +140,7 @@
                 <td rowspan=4>/sport/players/{teamId}</td>
                 <td rowspan=4>
                 В Postman: body -> raw ->JSON
-                <br><br> 
+                <br>
                 { <br>
                     "name": "Mattia",<br>
                     "surname": "Perin",<br>
@@ -171,7 +171,7 @@
             <td rowspan=4>/sport/players/{teamId}</td>
             <td rowspan=4>
             В Postman: body -> raw ->JSON
-                            <br><br> 
+                            <br>
             {<br>
             "id": 1,<br>
             "name": "Mattia",<br>
@@ -193,7 +193,7 @@
             <td rowspan=4>/sport/players/{playerId}</td>
             <td rowspan=4>
             В Postman: Params<br><br>
-             key - newTeamId<br><br>
+             key - newTeamId<br>
              Value - 1/2/3 и т.д.<br>
             </td>
             <td rowspan=4>
